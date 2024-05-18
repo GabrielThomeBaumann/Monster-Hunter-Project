@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.menu {
+    padding: 0.8em;
+    background-color:  maroon;
+    display: flex;
+    
+}
+
+.icon{
+    width: 6em;
+}
+
+.navigation {
+    text-align: right;
+    margin-left: auto;
+    margin-top: 1.5em;
+    font-size: large;
+    font-family: rubik;
+}
+
+
+.home {
+    margin-right: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.news {
+    margin-right: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.mhWiki {
+    margin-right: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.singUp {
+    margin-right: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    margin-right: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+/** navigationbar **/
+
+.search-txt{
+    width: 97.5%;
+    font-size: 1.3em;
+}

@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.menu {
+    padding: 0.8em;
+    background-color: maroon;
+    display: flex;
+}
+
+.icon {
+    width: 6em;
+}
+
+.navigation {
+    text-align: right;
+    margin-left: auto;
+    margin-top: 1.5em;
+    font-size: large;
+    font-family: rubik;
+}
+
+.home,
+.news,
+.mhWiki,
+.singUp,
+.login {
+    margin-right: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.group1,
+.group2,
+.group3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hometext1,
+.hometext2,
+.hometext3 {
+    flex: 1; 
+    min-width: 300px; 
+    text-align: left;
+    padding-top: 2em;
+    margin: 3em;
+    font-size: 1.5em;
+    font-family: rubik;
+}
+
+.imgHome1,
+.imgHome2,
+.imgHome3 {
+    flex: 0 1 25em; 
+    width: 100%;
+    max-width: 25em; 
+    padding-top: 3em;
+    margin: 2em;
+}
+
+
+.hometext1 {
+    padding-top: 2em;
+}
+
+.hometext2 {
+    padding-top: 3em;
+}
+
+.hometext3 {
+    padding-top: 0;
+}
+
+.imgHome1 {
+    padding-top: 3em;
+}
+
+.imgHome2 {
+    padding-top: 3em;
+}
+
+.imgHome3 {
+    padding-bottom: 2em;
+}

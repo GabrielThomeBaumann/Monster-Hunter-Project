@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: rubik;
+}
+
+body {
+    background-image: url('../assets/img/LoginBackground.jfif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+}
+
+.login {
+    padding: 6.93em;
+    margin: 3.2em auto; 
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.login h2 {
+    margin-bottom: 1em;
+}
+.login input {
+    margin-bottom: 1em;
+}
+
+.login p {
+    margin-bottom: 1em;
+    width: 200px;
+}
+
+
+
+
